@@ -9,6 +9,9 @@ public class Process {
     int startTime;
     int endTime;
 
+    public Process() {
+    }
+
     public Process(int load, int runTime, int startTime) {
         this.load = load;
         this.runTime = runTime;
